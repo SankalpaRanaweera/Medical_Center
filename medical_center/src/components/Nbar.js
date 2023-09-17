@@ -3,10 +3,11 @@ export default function Nbar() {
   return (
     <div>
       <ul>
-      <li><a href="About.js">Home</a></li>
-      <li><a href="Chanells.js">News</a></li>
-      <li><a href="contact.js">Contact</a></li>
-      <li><a href="service.js">About</a></li>
+      <li><a href="Home.js">HOME</a></li>
+      <li><a href="Appoinment.js">APPOINMENT</a></li>
+      <li><a href="Doctors.js">DOCTORS</a></li>
+      <li><a href="Service.js">SERVICES</a></li>
+      <li><a href="About.js">ABOUT</a></li>
     </ul>
     
       

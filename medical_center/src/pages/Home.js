@@ -1,13 +1,16 @@
 import React from 'react'
 import Nbar from '../components/Nbar'
-const photo = new URL("./src/pages/istockphoto-1189304032-612x612.jpg",import.meta.url)
+import img1 from '../images/images.jpg'
 export default function Home() {
   return (
     <div>
       <Nbar/>
-      <div className="homediv">
-        <h1>hi</h1>
-        <img src="[photo]"/>
+      <div >
+        <img src={img1} alt ="sfsf" className="homeimg"/>
+        
+      
+       
+     
 
       </div>
 
