@@ -1,23 +1,23 @@
 import './App.css';
-import Appoinment from './pages/Appoinment';
 import Home from './pages/Home';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import Appoinment from './pages/Appoinment';
+import{BrowserRouter as Router,Route,Switch, Routes}from'react-router-dom'
 function App() {
   return (
     <Router>
     <div className="App">
      <switch>
-      <Route exact path="/">
+      <Routes exact path="/">
       <Home/>
-      </Route>
-      <Route path="/Appoinment">
+      </Routes>
+      <Routes path="/Appoinment">
         <Appoinment/>
-        </Route>
+        </Routes>
         </switch>
-      
     </div>
     </Router>
   );
 }
+
 
 export default App;
