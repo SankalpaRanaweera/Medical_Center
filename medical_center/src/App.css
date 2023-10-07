@@ -65,32 +65,42 @@ a{
   }
   .ddiv1{
     width: 350px;
-    height: 500px;
+    height: 600px;
     background-color: blanchedalmond;
     margin-left: 75px;
-    margin-top: 110px;
+    margin-top: 70px;
+    padding-top: 40px;
   }
   .ddiv2{
     width: 350px;
-    height: 500px;
+    height: 600px;
     background-color: rgb(35, 185, 73);
     margin-left: 50px;
-    margin-top: 110px
+    margin-top: 70px
   }
   .ddiv3{
     width: 350px;
-    height: 500px;
+    height: 600px;
     background-color: rgb(100, 77, 161);
     margin-left: 50px;
-    margin-top: 110px
+    margin-top: 70px
   }
   .ddiv4{
     width: 350px;
-    height: 500px;
+    height: 600px;
     background-color: rgb(180, 91, 121);
     margin-left: 50px;
-    margin-top: 110px
+    margin-top: 70px
   }
   .doctorsdiv{
     display: flex;
   }
+  strong{
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  span{
+    font-size: 22px;
+    margin-left: 20px;
+  }
+ 
