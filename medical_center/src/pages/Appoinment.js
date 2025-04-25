@@ -10,9 +10,13 @@ export default function Appoinment() {
         <form  action="Script.js" method="post">
         
         <lable className="l1">Name</lable>
-        <input type="text" name="name" placeholder="   Enter Your Name" className='input1'/><br/>
+        <input type="text" name="name" className='input1'/><br/>
         <lable className="l2">Age</lable>
-        <input type="text" name="age" placeholder="   Enter Your Age" className='input2'/><br/>
+        <input type="text" name="age" className='input2'/><br/>
+        <lable className="l3">Telephone</lable>
+        <input type="text" name="telephone" className='input3'/><br/>
+        <lable className="l4">Doctor Name</lable>
+        <input type="text" name="doctor"className='input4'/><br/>
         <input type="submit" name="ok" value="Submit" className='appoinmentbtn'/>
 
       </form>
